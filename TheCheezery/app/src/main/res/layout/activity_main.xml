@@ -35,5 +35,17 @@
         android:textStyle="italic"
         android:textColor="@color/dusty_white"
         android:text="@string/welcome_description"
+        android:textAlignment="center"
+        android:padding="15dp"
         />
+
+    <Button
+        android:id="@+id/button_get_started"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/round_button"
+        android:text="@string/button_start"
+        android:textColor="@color/white" />
+
 </LinearLayout>
